@@ -14,14 +14,10 @@ public class Main {
         System.out.println("ФИО сотрудника —  " + fullName);
     }
     public static void task2() {
-        String firstName = "ivanov";
-        String middleName = "ivan";
-        String lastName = "ivanovich";
-        firstName = firstName.replace("i", "I");
-        middleName = middleName.replace("i", "I");
-        lastName = lastName.replace("i", "I");
-        String fullName = firstName + " " + middleName + " "+ lastName;
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
+        String fullName ="Ivanov Ivan IvanovIch";
+        String upperFullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + upperFullName);
+
     }
     public static void task3() {
         String fullName = "Иванов Семён Семёнович";
